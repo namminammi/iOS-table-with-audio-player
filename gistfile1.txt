@@ -1,4 +1,3 @@
-
 #import "haeViewController.h"
 
 @interface haeViewController ()
@@ -10,7 +9,7 @@
 - (IBAction)listen{
     if (clicked==0) {
         clicked=1;
-        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/hae.mp3", [[NSBundle mainBundle] resourcePath]]];
+        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/YOUR_FILENAME.mp3", [[NSBundle mainBundle] resourcePath]]];
         
         NSError *error;
         audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
