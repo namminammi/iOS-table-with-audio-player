@@ -1,10 +1,10 @@
-#import "haeViewController.h"
+#import "YOUR_FILENAME_ViewController.h"
 
 @interface haeViewController ()
 
 @end
 
-@implementation haeViewController
+@implementation YOUR_FILENAME_ViewController
 
 - (IBAction)listen{
     if (clicked==0) {
